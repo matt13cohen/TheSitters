@@ -1,0 +1,90 @@
+h1{
+    color:Black;
+    font-size: 40px;
+    font-family:'Hanalei Fill', sans-serif;
+    font-weight:300;
+    text-shadow:
+    -1px -1px 0 red,
+    1px -1px 0 orange,
+    -1px 1px 0 yellow,
+    1px 1px 0 blue;
+    text-align:center;
+    background-color:  #5900b3;
+    background-size:contain;
+    border: dotted 8px #FFCC33;
+    margin-left: 350px;
+    margin-right: 350px;
+} 
+
+
+nav{
+    text-align: center;
+   
+}
+
+nav li {
+  padding: 0 10px;
+  display: inline;
+  font-size:36px;
+}
+
+nav ul {
+  display: inline;
+  margin-right:150px;
+}
+
+nav a {
+  height: 36px;
+  
+  line-height: 36px;
+  color: white;
+   text-shadow:
+    -1px -1px 0 red,
+    1px -1px 0 orange,
+    -1px 1px 0 yellow,
+    1px 1px 0 blue;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Poiret One';
+  font-weight: 900;
+}
+
+.calendar{
+  text-align:center;
+  border-color:  #5900b3;
+  border-width: 5px;
+}
+
+
+.description{
+  
+    font-family:'Poiret One', sans-serif;
+    font-size: 35px;
+    text-shadow:
+    -1px -1px 0 #4b0032,
+    1px -1px 0 #4b0032,
+    -1px 1px 0 #4b0032,
+    1px 1px 0 #4b0032;
+    font-weight:600;
+    color:blue;
+    text-align: center;
+  
+    border:solid 8px #FFCC33 ;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url("Gradient.jpg");
+    background-size: cover;
+}
+
+
+.founders ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.founders li{
+  margin: 10px;
+}
+
